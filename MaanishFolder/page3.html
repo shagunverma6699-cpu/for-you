@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congrats</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;height:100vh;
+  background:#fff0f6;
+  background-image:
+    repeating-linear-gradient(#ffe6f1 0px,#ffe6f1 24px,#ffd6e8 25px);
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  font-family:'Patrick Hand',cursive;
+  text-align:center;
+  overflow:hidden;
+}
+
+h1{font-size:36px;}
+img{width:70%;max-width:260px;border-radius:18px;}
+
+button{
+  margin-top:18px;padding:14px 34px;
+  border:none;border-radius:30px;
+  background:#ff8fc7;color:white;
+  font-size:18px;
+  position: relative;
+  z-index: 10;
+}
+
+canvas{position:fixed;top:0;left:0; z-index:1;}
+</style>
+</head>
+
+<body>
+
+<canvas id="hearts"></canvas>
+
+<h1>Because you deserve it! Thank You for coming in my life💗</h1>
+<img src="img3.jpg">
+
+<button onclick="location.href='page4.html'">Tap to proceed</button>
+
+<script src="hearts.js"></script>
+</body>
+</html>
